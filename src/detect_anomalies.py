@@ -243,7 +243,7 @@ if __name__ == "__main__":
 #                 output_folder, f'result_{os.path.basename(frame_path)}')
 #             results[0].save(result_path)
 #             return (frame_path, current_detections, True)
-#         else: 
+#         else:
 #             return (frame_path, current_detections, False)
 #     except Exception as e:
 #         logging.error(f"Error processing frame {frame_path}: {e}")
@@ -271,7 +271,7 @@ if __name__ == "__main__":
 
 #             if is_anomaly:
 #                 logging.info(f'{os.path.basename(frame_file)}'
-#                              ' - Anomaly detected! Objects: {num_detections}')
+#                             ' - Anomaly detected! Objects: {num_detections}')
 #             else:
 #                 logging.info(
 #                     f'{os.path.basename(frame_file)}'

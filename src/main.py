@@ -27,7 +27,7 @@ def main(video_path, model_name):
         logging.error("No .mp4 files found in the data folder")
         return
 
-    video_path = video_files[0]  # Берем первый найденный .mp4 файл
+    video_path = video_files[0]  # Take the first mp4 file
     ensure_directories(base_dir)
 
     frames_folder = os.path.join(base_dir, 'frames')
